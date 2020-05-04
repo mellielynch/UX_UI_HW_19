@@ -1,0 +1,373 @@
+H5 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+H4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+H3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+}
+H2 {
+    font-family: 'Shrikhand', cursive;
+    color: #D9A50B;
+    font-size: 36px
+}
+H1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 52px;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #4CAF50;
+    border-color: white;
+    border-width: 3px;
+}
+#blackfont {
+    color: black;
+}
+#dashboard {
+    width: 90%;
+}
+#advbags {
+    width: 100%;
+}
+#rutgers {
+    width: 90% !important;
+}
+.header {
+    background-color: #539FFF;
+    padding: 50px;
+    height: 600px;
+    margin-top: 50px;
+}
+.flex-footer {
+    display: flex;  
+}
+.footer_left {
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.footer_right {
+    flex: 2;
+    margin-top: 30px;
+}
+.about {
+    display: grid;
+    grid-template-columns: 33% 66%;
+    grid-template-rows: 75% 25%;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    justify-items: stretch; 
+    align-items: stretch;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.resume {
+    display: grid;
+    grid-template-columns: 66% 33%;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    justify-items: stretch; 
+    align-items: stretch;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#sectionHeader {
+    margin-left: 65px;
+    margin-top: 50px;
+}
+#skillsFlex {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding: 35px;
+}
+#userResearch {
+    display: flex;
+    flex-direction: column;
+}
+#prototype {
+    display: flex;
+    flex-direction: column;
+}
+#qualAnalysis {
+    display: flex;
+    flex-direction: column;
+}
+#orangebox {
+    grid-column: 1;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F26E22;
+    padding: 35px;
+}
+#orangebox:hover {
+    background-color: #FDB046;
+}
+#greenbox2 {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #007388;
+    padding: 35px;
+}
+#greenbox2:hover {
+    background-color: #17A1BA;
+}
+#goldbox {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F29BEB;
+    padding: 35px;
+}
+#goldbox:hover {
+    background-color: purple;
+}
+.icon {
+    max-width: 50%;
+    margin: 0 auto;
+}
+#contactForm {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+#message {
+    width: 600px;
+    height: 250px;
+    border: auto;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 35px;
+}
+#namebox {
+    width: 300px;
+    height: 40px;
+    border: auto;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#contactButton {
+    width: 175px;
+    height: 75px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+#pinkbox {
+    grid-column: 2;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #D9A50B;
+    padding: 35px;
+}
+#pinkbox:hover {
+    background: #FFCB33;
+}
+#bluebox {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    align-items: flex-start;
+    background-color: #001D42;
+    padding: 35px;
+}
+#bluebox:hover {
+    background-color: royalblue;
+}
+#greenbox {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    background-color: #3EA244;
+    padding: 35px;
+}
+#greenbox:hover {
+    background-color: #1fbf88;
+}
+#innerbox_right {
+    margin-left: 75px;
+}
+#spacer {
+    height: 30ox;
+}
+#subhead {
+    font-size: 36px;
+}
+#display_font_change {
+    font-family: 'Shrikhand', cursive;
+    color: #001D42;
+    background-color: white;
+}
+.logo {
+    width: 300px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    -webkit-transition: transform 0.8s;
+    transition: transform 0.8s;
+}
+.logo.clicked {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+#rutgers {
+    width: 300px;
+}
+#biopic {
+    object-fit: cover;
+    width: 80%;
+}
+.innerbox_top { 
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+button {
+    width: 200px;
+    height: 50px;
+    background-color: inherit;
+    color: white;
+    border-width: 3px;
+    border-color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: white;
+    color: #001D42;
+    font-weight: 500;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+footer {
+    background-color: #001D42;
+    height: 200px;
+}
+body {
+    margin: 0;
+    margin-top: -50px;
+}
+html {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+#shift {
+    margin-left: 30px;
+}
+.about_me_animation {
+    animation: aboutMeHeader 1s;
+  }
+  
+  @keyframes aboutMeHeader {
+    from {
+      opacity: 0;
+      transform: translate3d(120px, 0px, 0px);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0px, 0px, 0px);
+    }
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: palegreen ;
+    color: slateblue;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    align-content: center;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
